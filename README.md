@@ -20,12 +20,20 @@ $$\mathcal{L}(\theta, \phi; x) = \mathbb{E}_{q_\phi(z|x)}[\log p_\theta(x|z)] - 
 
 1. **Clone the Repository:**
 
-    git clone [https://github.com/nizan-mashall/Variational-Auto-Encoder.git](https://github.com/nizan-mashall/Variational-Auto-Encoder.git)
-    cd Variational-Auto-Encoder
+```bash
+   git clone [https://github.com/nizan-mashall/Variational-Auto-Encoder.git](https://github.com/nizan-mashall/Variational-Auto-Encoder.git)
+   cd Variational-Auto-Encoder 
+   ```
 
+2. **Create and activate a virtual environment:**
+```bash
    Create a Virtual Environment:
     python3 -m venv venv
     source venv\Scripts\activate
+```
 
+3. **Install the dependencies:**
+```bash
    Install Dependencies:
     pip install -r requirements.txt
+```
